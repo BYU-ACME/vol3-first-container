@@ -9,7 +9,7 @@ RUN apt-get update && \
         build-essential cmake \
         libblas-dev liblapack-dev \
         libgl1 libglib2.0-0 \
-        gdal-bin libgdal-dev \
+        # gdal-bin libgdal-dev \
         git unzip sudo \
     && rm -rf /var/lib/apt/lists/*
 
