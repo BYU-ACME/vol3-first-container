@@ -8,8 +8,8 @@ RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
         build-essential cmake \
         libblas-dev liblapack-dev \
-        libgl1 libglib2.0-0 \
-        # gdal-bin libgdal-dev \
+        gdal-bin libgdal-dev \
+        ffmpeg \
         git unzip sudo \
     && rm -rf /var/lib/apt/lists/*
 
