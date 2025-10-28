@@ -12,6 +12,8 @@ RUN apt-get update && \
         ffmpeg \
         git unzip sudo \
         vim nano \
+        graphviz \
+        graphviz fontconfig fonts-dejavu-core \
     && rm -rf /var/lib/apt/lists/*
 
 
