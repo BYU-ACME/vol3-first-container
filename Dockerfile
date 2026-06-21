@@ -39,7 +39,7 @@ RUN pip install --no-cache-dir \
     ipykernel~=6.29.5 \
     jupyter~=1.1.1 \
     flake8~=7.3.0 \
-    flake8-nb~=0.5.3 \
+    nbqa~=1.9.1 \
     pytest~=7.4.4 \
     pytest-cov~=6.2.1 \
     ipython~=9.4.0 \
